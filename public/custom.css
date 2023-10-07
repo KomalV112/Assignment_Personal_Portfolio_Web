@@ -1,0 +1,97 @@
+body{
+    background-color:rgb(222, 224, 225);
+    background-image: url('images/theme.png');
+}
+
+
+
+#logo {
+    margin-left: 950px;
+    border-radius: 20px;
+    width: 400px;
+   border-bottom: 5px;
+    
+}
+#intro {
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    background-color: rgb(232, 231, 219);
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size:large;
+    text-indent: 25px;
+    padding: 50px;
+    color: rgb(125, 127, 118);
+
+   
+    
+}
+
+#footer{
+    font-size: small;
+    background-color: rgb(128, 129, 123);
+   
+}
+
+#aboutme{
+    box-sizing:content-box;
+    margin-top: 300px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+    background-color:rgb(232, 231, 219);
+    border-radius: 5px;
+    text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: large;
+        text-indent: 25px;
+        padding: 20px;
+        color:rgb(125, 127, 118);
+    
+}
+
+#skills{
+    margin-top:0px;
+    float:right;
+    width:250px;
+    height:300px;
+    border-radius: 50px;
+ 
+}
+
+#about{
+
+    background-image:url('images/aboutme.png');
+    background-position: center;
+   
+}
+
+form {
+    border-radius: 50px;
+    border-style: groove;
+    margin:auto;
+    width: 50%;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+input {
+    
+    display: block;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 0px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
