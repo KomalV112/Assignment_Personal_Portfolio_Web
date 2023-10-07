@@ -73,11 +73,15 @@ body{
 form {
     border-radius: 50px;
     border-style: groove;
-    margin:auto;
-    width: 50%;
+   margin-left: 100px;
+    margin-top: 50px;
+    width: 40%;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
+    font-size: large;
+    font-weight:bold;
+    background-color:rgb(232, 231, 219);
+    color: rgb(125, 127, 118);
 }
 
 input {
@@ -86,7 +90,8 @@ input {
     text-align: center;
     width: 50%;
     padding: 10px;
-    margin-bottom: 0px;
+    margin: 10px auto;
+    
     border: 1px solid #ccc;
 }
 
@@ -94,4 +99,45 @@ input[type="submit"] {
     background-color: #000;
     color: #fff;
     cursor: pointer;
+}
+
+
+#contact{
+       
+
+            background-color: rgb(232, 231, 219);
+            float:inline-end;
+            text-align: left;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            font-size: large;
+            text-indent: 25px;
+            padding: 50px;
+            color: rgb(125, 127, 118);
+            
+   
+
+}
+
+
+.container {
+    position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+    position:relative;
+    width: 400px;
+    background-color: black;
+    color: white;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
 }
